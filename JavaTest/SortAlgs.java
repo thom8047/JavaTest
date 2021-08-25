@@ -34,8 +34,11 @@ public class SortAlgs {
 
         BubbleSort alg_1 = new BubbleSort();
         List<Integer> alg_1_list = alg_1.returnBubble(OBJ);
-
         System.out.println(alg_1_list);
+
+        QuickSort alg_2 = new QuickSort();
+        List<Integer> alg_2_list = alg_2.returnQuick(OBJ);
+        System.out.println(alg_2_list);
 
         // sorting scripts to pull
      }
